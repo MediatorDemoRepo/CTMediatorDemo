@@ -13,6 +13,7 @@
 		252913D41E02E4AA00426176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252913D21E02E4AA00426176 /* Main.storyboard */; };
 		252913D61E02E4AA00426176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252913D51E02E4AA00426176 /* Assets.xcassets */; };
 		252913D91E02E4AA00426176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252913D71E02E4AA00426176 /* LaunchScreen.storyboard */; };
+		9E896D2481565A94E0CBCF8F /* libPods-CTMediatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB69905EB617096D0522AFD /* libPods-CTMediatorDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		252913D51E02E4AA00426176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252913D81E02E4AA00426176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		252913DA1E02E4AA00426176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6335E6CB14E574676D0616BD /* Pods-CTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB69905EB617096D0522AFD /* libPods-CTMediatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMediatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C930A83CF50C0A668F95D050 /* Pods-CTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E896D2481565A94E0CBCF8F /* libPods-CTMediatorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				252913C81E02E4AA00426176 /* CTMediatorDemo */,
 				252913C71E02E4AA00426176 /* Products */,
+				D10CEFC92B70C49C00C7FBB1 /* Pods */,
+				4DA0DE3F01630CBF98CED601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4DA0DE3F01630CBF98CED601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB69905EB617096D0522AFD /* libPods-CTMediatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10CEFC92B70C49C00C7FBB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6335E6CB14E574676D0616BD /* Pods-CTMediatorDemo.debug.xcconfig */,
+				C930A83CF50C0A668F95D050 /* Pods-CTMediatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 252913DD1E02E4AA00426176 /* Build configuration list for PBXNativeTarget "CTMediatorDemo" */;
 			buildPhases = (
+				C6317678CDF7760BCBACAFA7 /* [CP] Check Pods Manifest.lock */,
 				252913C21E02E4AA00426176 /* Sources */,
 				252913C31E02E4AA00426176 /* Frameworks */,
 				252913C41E02E4AA00426176 /* Resources */,
+				427D76130CDAEBD9256FE528 /* [CP] Embed Pods Frameworks */,
+				548A426BB0B039EB368AAD3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		427D76130CDAEBD9256FE528 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		548A426BB0B039EB368AAD3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6317678CDF7760BCBACAFA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		252913C21E02E4AA00426176 /* Sources */ = {
@@ -268,6 +343,7 @@
 		};
 		252913DE1E02E4AA00426176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6335E6CB14E574676D0616BD /* Pods-CTMediatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CTMediatorDemo/Info.plist;
@@ -279,6 +355,7 @@
 		};
 		252913DF1E02E4AA00426176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C930A83CF50C0A668F95D050 /* Pods-CTMediatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CTMediatorDemo/Info.plist;

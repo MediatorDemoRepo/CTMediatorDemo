@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+target 'CTMediatorDemo' do
+  # ignoring warning from pods
+  inhibit_all_warnings!
+  pod 'MBProgressHUD', '~> 0.9'
+  #pod 'YYKit'
+  pod 'Masonry', '~> 1.0.2'
+end
