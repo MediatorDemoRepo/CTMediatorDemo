@@ -1,0 +1,28 @@
+{
+  "name": "Home_Category",
+  "version": "1",
+  "summary": "Home_Category.",
+  "description": "this is Home_Category",
+  "homepage": "https://github.com/zzgo/Home_Category",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/zzgo/Home_Category.git",
+    "tag": "1"
+  },
+  "source_files": "Home_Category/Home_Category/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

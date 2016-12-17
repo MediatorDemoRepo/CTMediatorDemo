@@ -1,15 +1,18 @@
 PODS:
+  - CTMediator (0.0.2)
+  - Home_Category (1.0):
+    - CTMediator
   - Masonry (1.0.2)
-  - MBProgressHUD (0.9.2)
 
 DEPENDENCIES:
+  - Home_Category
   - Masonry (~> 1.0.2)
-  - MBProgressHUD (~> 0.9)
 
 SPEC CHECKSUMS:
+  CTMediator: da466319e36f9e0d033af4769c0741d04c6b14c5
+  Home_Category: df187077a645bdee9e389a7a4e91af846e5b184c
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
 
-PODFILE CHECKSUM: 478594c9d6ac2f56e6ceda925863cab81e53460c
+PODFILE CHECKSUM: aa903aef90b1d1febbbc72111fe189a3df7ebdb6
 
 COCOAPODS: 1.1.1
