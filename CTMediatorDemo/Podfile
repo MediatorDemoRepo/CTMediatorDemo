@@ -11,4 +11,5 @@ target 'CTMediatorDemo' do
   pod 'Masonry', '~> 1.0.2'
   # , :path => "../Home_Category"
   pod 'Home_Category'
+  pod 'Home'
 end
