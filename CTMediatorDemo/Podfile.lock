@@ -1,21 +1,21 @@
 PODS:
   - CTMediator (0.0.2)
-  - Home (1.0)
+  - Home (1.1)
   - Home_Category (1.0):
     - CTMediator
   - Masonry (1.0.2)
 
 DEPENDENCIES:
-  - Home
+  - Home (~> 1.1)
   - Home_Category
   - Masonry (~> 1.0.2)
 
 SPEC CHECKSUMS:
   CTMediator: da466319e36f9e0d033af4769c0741d04c6b14c5
-  Home: 5cb91adf22ee8949792053a7261981342d42e085
+  Home: 4abef54c320ab65ea4ae672ace36e4b57152c5bc
   Home_Category: df187077a645bdee9e389a7a4e91af846e5b184c
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: c504b06be117e8574436294812918a02ddaebcb2
+PODFILE CHECKSUM: 8fc69c2b03a06c5b4b3cd36b8785c274614019d9
 
 COCOAPODS: 1.1.1

@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-source 'https://github.com/zzgo/PrivatePods.git'
+source 'https://github.com/MediatorDemoRepo/PrivatePods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'CTMediatorDemo' do
@@ -11,5 +11,5 @@ target 'CTMediatorDemo' do
   pod 'Masonry', '~> 1.0.2'
   # , :path => "../Home_Category"
   pod 'Home_Category'
-  pod 'Home'
+  pod 'Home', '~> 1.1'
 end
